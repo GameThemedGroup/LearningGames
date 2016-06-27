@@ -262,6 +262,7 @@ public abstract class SpaceSmasher extends LibraryCode
 	  
 	  scoreText.setText("SCORE: " + score);
   }
+
   /**
    * Set the level text to input.
    * @param level level to be set to.
@@ -269,8 +270,24 @@ public abstract class SpaceSmasher extends LibraryCode
   public void setLevel(int level)
   {
 	  this.level = level;
-	  levelText.setText("SCORE: " + level);
-	  
+	  levelText.setText("LEVEL: " + level);
+  }
+
+  /**
+   * Set the level to be the next level, and change the level text to show the next level.
+   */
+  public void nextLevel()
+  {
+	  this.level++;
+	  levelText.setText("LEVEL: " + this.level);
+  }
+  
+  /**
+   * Return the current level number.
+   */
+  public int getLevel()
+  {
+	  return this.level;
   }
 
   /**
