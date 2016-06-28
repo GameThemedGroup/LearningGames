@@ -4,6 +4,5 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/GameEngine"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/CorruptedOOAPI"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/CorruptedProceduralAPI"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
